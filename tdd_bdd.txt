@@ -1,0 +1,12 @@
+*どういうことをしてて、どういう意味があるのかを覚えてほしい
+
+【テスト駆動開発:TDD - Test-Driven Development】
+
+テストから書いていくというテストファーストな方法
+
+レッド→グリーン→リファクタリング
+https://dev.classmethod.jp/study_meeting/read/what-tdd/
+
+【ビヘイビア駆動開発:Behavior Driven Development】
+
+スペックファースト
