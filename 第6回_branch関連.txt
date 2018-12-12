@@ -44,3 +44,4 @@ git merge remotes/origin/test‚Åpull‚Æ“¯‚¶ˆÓ–¡‚É‚È‚é
  https://qiita.com/Teloo/items/95a860ae276b49edb040
  http://dqn.sakusakutto.jp/2012/11/git_pull.html
 
+rebase‚ÍŠµ‚ê‚½l‚ª®‚¦‚é‚à‚Ì
