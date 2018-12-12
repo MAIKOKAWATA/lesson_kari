@@ -1,0 +1,6 @@
+ git log --oneline --branches --reverse --author="$(git config user.name)" --
+date=short --since="1day" --pretty=format:"[%ad] %h: %s" >log1212.txt
+
+でテキストファイルに1日分のログ取れる
+
+参考https://chaika.hatenablog.com/entry/2017/07/03/113000
