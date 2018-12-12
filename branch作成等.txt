@@ -22,3 +22,16 @@ git checkout ブランチ名
 
 *********
 
+gitcheckoutまでは上記の手順で
+touch index.txt
+git add index.txt
+git commit -m "インデックス作成" index.txt
+git push -u origin ブランチ名
+
+で今回作った新ブランチにファイル追加
+
+----------------------------------
+
+リモートにあわせる
+https://qiita.com/ms2sato/items/72b48c1b1923beb1e186
+
