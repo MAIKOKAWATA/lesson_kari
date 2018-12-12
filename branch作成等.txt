@@ -35,3 +35,7 @@ git push -u origin ブランチ名
 リモートにあわせる
 https://qiita.com/ms2sato/items/72b48c1b1923beb1e186
 
+git fetchとは
+https://qiita.com/takakuda/items/2123e37733445f69f0ff
+
+
