@@ -1,0 +1,18 @@
+homeディレクトリ設定(cmder)
+
+https://qiita.com/alchemist/items/f2f54cfe545c84af9430
+
+Settings - Stratup - Tasks部分
+
+なおかつ
+Bash for Japaneseの
+Default task for new console
+と
+Default shell
+にチェックを入れる
+
+cd ..\..\で一度homeディレクトリを抜け、
+cd ~でhomeディレクトリに移動したら設定完了
+(~がhomeの意味)
+
+pwdで今自分のいる場所を確認できる
