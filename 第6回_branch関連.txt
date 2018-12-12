@@ -1,0 +1,46 @@
+origin/master remoteのmasterブランチって言う意味
+
+--allより.で
+
+remoteに対して何かしたいときはpull/push
+
+toukaionairブランチで
+git merge masterってするとmasterの設定をtoukaionairに持ってくる
+マージはローカル同士をくっつける
+
+pullはremoteから引っ張ってくる
+git pull origin master
+
+
+----------------
+
+・masterより新しいブランチのほうが進んでいるのが普通
+
+----------------
+
+pullのもう一個のやり方
+C直下に
+mkdir test
+
+git fetch
+remoteとlocalで同期とってもってくる
+他人の変更を自分でも見れるようにする感じ
+
+masterにfetchの変更点を入れ込みたいとき
+git pull origin test
+(危険！)
+もう一個のやり方
+git fetchでremotes/origin/testができている
+git merge remotes/origin/testでpullと同じ意味になる
+(これもよくない！)
+で、よいやり方
+ git checkout -b test origin/test
+ 参考　https://www.setoya-blog.com/entry/2012/11/04/132746
+ 
+ git pull origin/testで起こりうるリスクは？
+ 予期しない他人の編集が反映されてしまう
+ 
+ 参考
+ https://qiita.com/Teloo/items/95a860ae276b49edb040
+ http://dqn.sakusakutto.jp/2012/11/git_pull.html
+
