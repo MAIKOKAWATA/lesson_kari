@@ -1,0 +1,35 @@
+秘密鍵と公開鍵
+
+鍵の役割
+　・ログイン認証(一番一般的)
+
+
+
+コマンド　sshkey-gen
+
+PuTTYを使う
+ユーザー名とパスでもログインできるけど、
+もう一個の手法が鍵
+sshの設定をサーバー側ですると鍵認証が出来るようになる
+~/.ssh/anthraiation_keysに公開鍵をはる
+ユーザーは秘密鍵を持っておいて、ログインするときに
+ユーザー名・鍵でログインできる
+(パスワード要らない)
+
+秘密鍵から公開鍵は出来る
+公開鍵はみんなに見られていい
+公開鍵から秘密鍵には戻せないから(非可逆)
+
+秘密鍵は自分のパソコンの中で閉じとくようなもの
+3人サーバーにもぐりたい人がいるなら、
+3人それぞれが秘密鍵と公開鍵を持たないといけない
+
+いまはサーバーがGitHub
+SSH and GPG keys
+→New SSH key
+
+参考
+https://qiita.com/shizuma/items/2b2f873a0034839e47ce
+
+.ppkはだめなので
+ '/c/Program\ Files\ \(x86\)/WinSCP/PuTTY/puttygen.exe pkey.ppk -O private-ope nssh -o pkey.pem
