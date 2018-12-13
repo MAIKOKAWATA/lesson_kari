@@ -39,4 +39,5 @@ Host github github.com
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 
 .ppkはだめなので.pemに変換
- '/c/Program\ Files\ \(x86\)/WinSCP/PuTTY/puttygen.exe pkey.ppk -O private-ope nssh -o pkey.pem
+https://aws.amazon.com/jp/premiumsupport/knowledge-center/convert-pem-file-into-ppk/
+上記参照。めちゃめちゃわかりやすい。
