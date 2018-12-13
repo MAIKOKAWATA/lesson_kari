@@ -1,46 +1,55 @@
-�y�閧���ƌ��J���z
+【秘密鍵と公開鍵】
 
-���̖���
-�@�E���O�C���F��(��Ԉ�ʓI)
+鍵の役割
+　・ログイン認証(一番一般的)
 
 
 
-�R�}���h�@sshkey-gen �����߂������̂�
+コマンド　sshkey-gen がだめだったので
 
-PuTTY���g��
-(C:\Program Files (x86)\WinSCP\PuTTY��puttygen.exe)
-���[�U�[���ƃp�X�ł����O�C���ł��邯�ǁA
-������̎�@����
-ssh�̐ݒ���T�[�o�[���ł���ƌ��F�؂��o����悤�ɂȂ�
-~/.ssh/anthraiation_keys�Ɍ��J�����͂�
-���[�U�[�͔閧���������Ă����āA���O�C������Ƃ���
-���[�U�[���E���Ń��O�C���ł���
-(�p�X���[�h�v��Ȃ�)
+PuTTYを使う
+(C:\Program Files (x86)\WinSCP\PuTTYのputtygen.exe)
+ユーザー名とパスでもログインできるけど、
+もう一個の手法が鍵
+sshの設定をサーバー側ですると鍵認証が出来るようになる
+~/.ssh/anthraiation_keysに公開鍵をはる
+ユーザーは秘密鍵を持っておいて、ログインするときに
+ユーザー名・鍵でログインできる
+(パスワード要らない)
 
-�閧��������J���͏o����
-���J���݂͂�ȂɌ����Ă���
-���J������閧���ɂ͖߂��Ȃ�����(��t)
+秘密鍵から公開鍵は出来る
+公開鍵はみんなに見られていい
+公開鍵から秘密鍵には戻せないから(非可逆)
 
-�閧���͎����̃p�\�R���̒��ŕ��Ƃ��悤�Ȃ���
-3�l�T�[�o�[�ɂ����肽���l������Ȃ�A
-3�l���ꂼ�ꂪ�閧���ƌ��J���������Ȃ��Ƃ����Ȃ�
+秘密鍵は自分のパソコンの中で閉じとくようなもの
+3人サーバーにもぐりたい人がいるなら、
+3人それぞれが秘密鍵と公開鍵を持たないといけない
 
-���܂̓T�[�o�[��GitHub
+いまはサーバーがGitHub
 SSH and GPG keys
-��New SSH key
+→New SSH key
 
-~/.ssh/config�t�@�C�����쐬�A�ȉ�������
+~/.ssh/configファイルを作成、以下を書く
 Host github github.com
   HostName github.com
-    IdentityFile ~/.ssh/office_private_key.pem <!--�閧���̏ꏊ������-->
+    IdentityFile ~/.ssh/office_private_key.pem <!--秘密鍵の場所を書く-->
       User git
 
-�Q�l
+参考
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 
-.ppk�͂��߂Ȃ̂�.pem�ɕϊ�
+.ppkはだめなので.pemに変換
 https://aws.amazon.com/jp/premiumsupport/knowledge-center/convert-pem-file-into-ppk/
-��L�Q�ƁB�߂���߂���킩��₷���B
+上記参照。めちゃめちゃわかりやすい。
 
-�Q����ǋL
-�����p�\�R���ł���΁A����1�ł悢
+群さん追記
+同じパソコンであれば、鍵は1つでよい
+が
+GitHubで同じ鍵を登録できないようになっているため
+2つ鍵を作って運用するしかありません。
+
+2つ鍵を作る場合は下記参照
+https://qiita.com/zaru/items/c0e6799d8e6417fa8617
+
+https://qiita.com/yampy/items/24638156abd383e08758
+
