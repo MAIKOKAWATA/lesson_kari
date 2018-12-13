@@ -5,7 +5,7 @@
 
 
 
-コマンド　sshkey-gen
+コマンド　sshkey-gen がだめだったので
 
 PuTTYを使う
 (C:\Program Files (x86)\WinSCP\PuTTYのputtygen.exe)
@@ -38,5 +38,5 @@ Host github github.com
 参考
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 
-.ppkはだめなので
+.ppkはだめなので.pemに変換
  '/c/Program\ Files\ \(x86\)/WinSCP/PuTTY/puttygen.exe pkey.ppk -O private-ope nssh -o pkey.pem
