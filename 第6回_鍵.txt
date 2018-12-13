@@ -8,6 +8,7 @@
 コマンド　sshkey-gen
 
 PuTTYを使う
+(C:\Program Files (x86)\WinSCP\PuTTYのputtygen.exe)
 ユーザー名とパスでもログインできるけど、
 もう一個の手法が鍵
 sshの設定をサーバー側ですると鍵認証が出来るようになる
@@ -27,6 +28,12 @@ sshの設定をサーバー側ですると鍵認証が出来るようになる
 いまはサーバーがGitHub
 SSH and GPG keys
 →New SSH key
+
+~/.ssh/configファイルを作成、以下を書く
+Host github github.com
+  HostName github.com
+    IdentityFile ~/.ssh/office_private_key.pem <!--秘密鍵の場所を書く-->
+      User git
 
 参考
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
