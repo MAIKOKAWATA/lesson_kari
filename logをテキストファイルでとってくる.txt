@@ -1,6 +1,6 @@
  git log --oneline --branches --reverse --author="$(git config user.name)" --
 date=short --since="1day" --pretty=format:"[%ad] %h: %s" >log1212.txt
 
-‚ÅƒeƒLƒXƒgƒtƒ@ƒCƒ‹‚É1“ú•ª‚ÌƒƒOæ‚ê‚é
+ã§ãƒ†ã‚­ã‚¹ãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã«1æ—¥åˆ†ã®ãƒ­ã‚°å–ã‚Œã‚‹
 
-Qlhttps://chaika.hatenablog.com/entry/2017/07/03/113000
+å‚è€ƒhttps://chaika.hatenablog.com/entry/2017/07/03/113000

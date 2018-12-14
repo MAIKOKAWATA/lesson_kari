@@ -1,47 +1,47 @@
-origin/master remote‚Ìmasterƒuƒ‰ƒ“ƒ`‚Á‚ÄŒ¾‚¤ˆÓ–¡
+origin/master remoteã®masterãƒ–ãƒ©ãƒ³ãƒã£ã¦è¨€ã†æ„å‘³
 
---all‚æ‚è.‚Å
+--allã‚ˆã‚Š.ã§
 
-remote‚É‘Î‚µ‚Ä‰½‚©‚µ‚½‚¢‚Æ‚«‚Ípull/push
+remoteã«å¯¾ã—ã¦ä½•ã‹ã—ãŸã„ã¨ãã¯pull/push
 
-toukaionairƒuƒ‰ƒ“ƒ`‚Å
-git merge master‚Á‚Ä‚·‚é‚Æmaster‚Ìİ’è‚ğtoukaionair‚É‚Á‚Ä‚­‚é
-ƒ}[ƒW‚Íƒ[ƒJƒ‹“¯m‚ğ‚­‚Á‚Â‚¯‚é
+toukaionairãƒ–ãƒ©ãƒ³ãƒã§
+git merge masterã£ã¦ã™ã‚‹ã¨masterã®è¨­å®šã‚’toukaionairã«æŒã£ã¦ãã‚‹
+ãƒãƒ¼ã‚¸ã¯ãƒ­ãƒ¼ã‚«ãƒ«åŒå£«ã‚’ãã£ã¤ã‘ã‚‹
 
-pull‚Íremote‚©‚çˆø‚Á’£‚Á‚Ä‚­‚é
+pullã¯remoteã‹ã‚‰å¼•ã£å¼µã£ã¦ãã‚‹
 git pull origin master
 
 
 ----------------
 
-Emaster‚æ‚èV‚µ‚¢ƒuƒ‰ƒ“ƒ`‚Ì‚Ù‚¤‚ªi‚ñ‚Å‚¢‚é‚Ì‚ª•’Ê
+ãƒ»masterã‚ˆã‚Šæ–°ã—ã„ãƒ–ãƒ©ãƒ³ãƒã®ã»ã†ãŒé€²ã‚“ã§ã„ã‚‹ã®ãŒæ™®é€š
 
 ----------------
 
-pull‚Ì‚à‚¤ˆêŒÂ‚Ì‚â‚è•û
-C’¼‰º‚É
+pullã®ã‚‚ã†ä¸€å€‹ã®ã‚„ã‚Šæ–¹
+Cç›´ä¸‹ã«
 mkdir test
 
 git fetch
-remote‚Ælocal‚Å“¯Šú‚Æ‚Á‚Ä‚à‚Á‚Ä‚­‚é
-‘¼l‚Ì•ÏX‚ğ©•ª‚Å‚àŒ©‚ê‚é‚æ‚¤‚É‚·‚éŠ´‚¶
+remoteã¨localã§åŒæœŸã¨ã£ã¦ã‚‚ã£ã¦ãã‚‹
+ä»–äººã®å¤‰æ›´ã‚’è‡ªåˆ†ã§ã‚‚è¦‹ã‚Œã‚‹ã‚ˆã†ã«ã™ã‚‹æ„Ÿã˜
 
-master‚Éfetch‚Ì•ÏX“_‚ğ“ü‚ê‚İ‚½‚¢‚Æ‚«
+masterã«fetchã®å¤‰æ›´ç‚¹ã‚’å…¥ã‚Œè¾¼ã¿ãŸã„ã¨ã
 git pull origin test
-(ŠëŒ¯I)
-‚à‚¤ˆêŒÂ‚Ì‚â‚è•û
-git fetch‚Åremotes/origin/test‚ª‚Å‚«‚Ä‚¢‚é
-git merge remotes/origin/test‚Åpull‚Æ“¯‚¶ˆÓ–¡‚É‚È‚é
-(‚±‚ê‚à‚æ‚­‚È‚¢I)
-‚ÅA‚æ‚¢‚â‚è•û
+(å±é™ºï¼)
+ã‚‚ã†ä¸€å€‹ã®ã‚„ã‚Šæ–¹
+git fetchã§remotes/origin/testãŒã§ãã¦ã„ã‚‹
+git merge remotes/origin/testã§pullã¨åŒã˜æ„å‘³ã«ãªã‚‹
+(ã“ã‚Œã‚‚ã‚ˆããªã„ï¼)
+ã§ã€ã‚ˆã„ã‚„ã‚Šæ–¹
  git checkout -b test origin/test
- Ql@https://www.setoya-blog.com/entry/2012/11/04/132746
+ å‚è€ƒã€€https://www.setoya-blog.com/entry/2012/11/04/132746
  
- git pull origin/test‚Å‹N‚±‚è‚¤‚éƒŠƒXƒN‚ÍH
- —\Šú‚µ‚È‚¢‘¼l‚Ì•ÒW‚ª”½‰f‚³‚ê‚Ä‚µ‚Ü‚¤
+ git pull origin/testã§èµ·ã“ã‚Šã†ã‚‹ãƒªã‚¹ã‚¯ã¯ï¼Ÿ
+ äºˆæœŸã—ãªã„ä»–äººã®ç·¨é›†ãŒåæ˜ ã•ã‚Œã¦ã—ã¾ã†
  
- Ql
+ å‚è€ƒ
  https://qiita.com/Teloo/items/95a860ae276b49edb040
  http://dqn.sakusakutto.jp/2012/11/git_pull.html
 
-rebase‚ÍŠµ‚ê‚½l‚ª®‚¦‚é‚à‚Ì
+rebaseã¯æ…£ã‚ŒãŸäººãŒæ•´ãˆã‚‹ã‚‚ã®

@@ -1,20 +1,20 @@
 2018/12/12
 
-homeƒfƒBƒŒƒNƒgƒŠİ’è(cmder)
+homeãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªè¨­å®š(cmder)
 
 https://qiita.com/alchemist/items/f2f54cfe545c84af9430
 
-Settings - Stratup - Tasks•”•ª
+Settings - Stratup - Taskséƒ¨åˆ†
 
-‚È‚¨‚©‚Â
-Bash for Japanese‚Ì
+ãªãŠã‹ã¤
+Bash for Japaneseã®
 Default task for new console
-‚Æ
+ã¨
 Default shell
-‚Éƒ`ƒFƒbƒN‚ğ“ü‚ê‚é
+ã«ãƒã‚§ãƒƒã‚¯ã‚’å…¥ã‚Œã‚‹
 
-cd ..\..\‚Åˆê“xhomeƒfƒBƒŒƒNƒgƒŠ‚ğ”²‚¯A
-cd ~‚ÅhomeƒfƒBƒŒƒNƒgƒŠ‚ÉˆÚ“®‚µ‚½‚çİ’èŠ®—¹
-(~‚ªhome‚ÌˆÓ–¡)
+cd ..\..\ã§ä¸€åº¦homeãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’æŠœã‘ã€
+cd ~ã§homeãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã«ç§»å‹•ã—ãŸã‚‰è¨­å®šå®Œäº†
+(~ãŒhomeã®æ„å‘³)
 
-pwd‚Å¡©•ª‚Ì‚¢‚éêŠ‚ğŠm”F‚Å‚«‚é
+pwdã§ä»Šè‡ªåˆ†ã®ã„ã‚‹å ´æ‰€ã‚’ç¢ºèªã§ãã‚‹

@@ -1,12 +1,12 @@
-*‚Ç‚¤‚¢‚¤‚±‚Æ‚ð‚µ‚Ä‚ÄA‚Ç‚¤‚¢‚¤ˆÓ–¡‚ª‚ ‚é‚Ì‚©‚ðŠo‚¦‚Ä‚Ù‚µ‚¢
+*ã©ã†ã„ã†ã“ã¨ã‚’ã—ã¦ã¦ã€ã©ã†ã„ã†æ„å‘³ãŒã‚ã‚‹ã®ã‹ã‚’è¦šãˆã¦ã»ã—ã„
 
-yƒeƒXƒg‹ì“®ŠJ”­:TDD - Test-Driven Developmentz
+ã€ãƒ†ã‚¹ãƒˆé§†å‹•é–‹ç™º:TDD - Test-Driven Developmentã€‘
 
-ƒeƒXƒg‚©‚ç‘‚¢‚Ä‚¢‚­‚Æ‚¢‚¤ƒeƒXƒgƒtƒ@[ƒXƒg‚È•û–@
+ãƒ†ã‚¹ãƒˆã‹ã‚‰æ›¸ã„ã¦ã„ãã¨ã„ã†ãƒ†ã‚¹ãƒˆãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆãªæ–¹æ³•
 
-ƒŒƒbƒh¨ƒOƒŠ[ƒ“¨ƒŠƒtƒ@ƒNƒ^ƒŠƒ“ƒO
+ãƒ¬ãƒƒãƒ‰â†’ã‚°ãƒªãƒ¼ãƒ³â†’ãƒªãƒ•ã‚¡ã‚¯ã‚¿ãƒªãƒ³ã‚°
 https://dev.classmethod.jp/study_meeting/read/what-tdd/
 
-yƒrƒwƒCƒrƒA‹ì“®ŠJ”­:Behavior Driven Developmentz
+ã€ãƒ“ãƒ˜ã‚¤ãƒ“ã‚¢é§†å‹•é–‹ç™º:Behavior Driven Developmentã€‘
 
-ƒXƒyƒbƒNƒtƒ@[ƒXƒg
+ã‚¹ãƒšãƒƒã‚¯ãƒ•ã‚¡ãƒ¼ã‚¹ãƒˆ

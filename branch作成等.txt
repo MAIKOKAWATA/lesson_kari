@@ -1,41 +1,41 @@
 2018/12/12
-Git ƒuƒ‰ƒ“ƒ`ì¬è‡
+Git ãƒ–ãƒ©ãƒ³ãƒä½œæˆæ‰‹é †
 
-git branch ƒuƒ‰ƒ“ƒ`–¼
-¨ƒuƒ‰ƒ“ƒ`ì¬
+git branch ãƒ–ãƒ©ãƒ³ãƒå
+â†’ãƒ–ãƒ©ãƒ³ãƒä½œæˆ
 
-git branch -a‚Ü‚½‚Ígit branch --all‚Å
-‘Sƒuƒ‰ƒ“ƒ`‚ÌŠm”F‚ªo—ˆ‚é
+git branch -aã¾ãŸã¯git branch --allã§
+å…¨ãƒ–ãƒ©ãƒ³ãƒã®ç¢ºèªãŒå‡ºæ¥ã‚‹
 
-git checkout ƒuƒ‰ƒ“ƒ`–¼
-ƒuƒ‰ƒ“ƒ`‚ÌˆÚ“®
+git checkout ãƒ–ãƒ©ãƒ³ãƒå
+ãƒ–ãƒ©ãƒ³ãƒã®ç§»å‹•
 
-Eƒuƒ‰ƒ“ƒ`‚Ìíœ
- git branch -d ƒuƒ‰ƒ“ƒ`–¼
+ãƒ»ãƒ–ãƒ©ãƒ³ãƒã®å‰Šé™¤
+ git branch -d ãƒ–ãƒ©ãƒ³ãƒå
 
 ---------------------------------
 
-ŒQ‚³‚ñ‰Û‘è
-@YouTuber‚²‚Æ‚Ìƒuƒ‰ƒ“ƒ`‚ğì‚Á‚ÄA
-@‚»‚±‚ÉXV‚µ‚Ä‚¢‚«A
-@‚»‚ê‚ğmaster‚Æ‚ ‚í‚¹‚é
+ç¾¤ã•ã‚“èª²é¡Œ
+ã€€YouTuberã”ã¨ã®ãƒ–ãƒ©ãƒ³ãƒã‚’ä½œã£ã¦ã€
+ã€€ãã“ã«æ›´æ–°ã—ã¦ã„ãã€
+ã€€ãã‚Œã‚’masterã¨ã‚ã‚ã›ã‚‹
 
 *********
 
-gitcheckout‚Ü‚Å‚Íã‹L‚Ìè‡‚Å
+gitcheckoutã¾ã§ã¯ä¸Šè¨˜ã®æ‰‹é †ã§
 touch index.txt
 git add index.txt
-git commit -m "ƒCƒ“ƒfƒbƒNƒXì¬" index.txt
-git push -u origin ƒuƒ‰ƒ“ƒ`–¼
+git commit -m "ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹ä½œæˆ" index.txt
+git push -u origin ãƒ–ãƒ©ãƒ³ãƒå
 
-‚Å¡‰ñì‚Á‚½Vƒuƒ‰ƒ“ƒ`‚Éƒtƒ@ƒCƒ‹’Ç‰Á
+ã§ä»Šå›ä½œã£ãŸæ–°ãƒ–ãƒ©ãƒ³ãƒã«ãƒ•ã‚¡ã‚¤ãƒ«è¿½åŠ 
 
 ----------------------------------
 
-ƒŠƒ‚[ƒg‚É‚ ‚í‚¹‚é
+ãƒªãƒ¢ãƒ¼ãƒˆã«ã‚ã‚ã›ã‚‹
 https://qiita.com/ms2sato/items/72b48c1b1923beb1e186
 
-git fetch‚Æ‚Í
+git fetchã¨ã¯
 https://qiita.com/takakuda/items/2123e37733445f69f0ff
 
 

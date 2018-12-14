@@ -1,8 +1,8 @@
-�}�[�N�_�E���̂��߂̊g���@�\(VS code)
+マークダウンのための拡張機能(VS code)
 
-VSCode markdown table align�Ō����B
-�����͊ȒP�ɂł���
+VSCode markdown table alignで検索。
+実装は簡単にできた
 
-�g�����́A�e�[�u���̒��ɃJ�[�\���������Ă����A
-[View]�^�u��[command palettle]��I��
-Table Format center�Ńe�[�u���̒i������
+使い方は、テーブルの中にカーソルを持っていき、
+[View]タブの[command palettle]を選択
+Table Format centerでテーブルの段が揃う

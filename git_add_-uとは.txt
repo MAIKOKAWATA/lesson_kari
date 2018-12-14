@@ -2,5 +2,5 @@
 git add -u
 
 
-git add -u �́u�O�X�e�[�W�Ɣ�r���ĕύX�_�������������̂�add�v
-�V�t�@�C���͒ǉ�����Ȃ�
+git add -u は「前ステージと比較して変更点があった部分のみadd」
+新ファイルは追加されない
