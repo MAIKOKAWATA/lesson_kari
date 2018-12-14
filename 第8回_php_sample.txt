@@ -1,0 +1,46 @@
+<?php
+
+class Myclass {
+//ここに関数とか定数を書く
+ public $aaa = "123";//外から見れる
+}
+
+//使い方
+$aaa = new Myclass(); //$aaa = new Myclass;でもOK
+//newしない場合の書き方
+echo MyClass::$aaa;//上のpublicのあとにstatic(静的)って入れないとだめ　sataticって書いてなかったらnewして呼ぶ
+
+class Myclass {
+ private $aaa = "123";//外からアクセスできない
+
+ public static function efg (){
+   return "456";
+ }
+ echo MyClass::efg();//456が出力される
+
+}
+
+class Myclass {
+ private static $aaa = "123";//外からアクセスできない
+
+ public static function efg (){
+   return self::$aaa;
+ }
+ echo MyClass::efg();//123が出力される
+echo MyClass::$aaa//error
+}
+
+
+class Myclass extends MyClassOya{ //継承
+/**
+ *人間というclassを作って、男って言う継承されたclassを作る
+ *ベースが一緒で変えないといけない部分があるときに使う
+ */
+ protected static $aaa = "123";//外からアクセスできない//継承した先では使えるようになる
+
+ public static function efg (){
+   return self::$aaa;
+ }
+ echo MyClass::efg();//123が出力される
+ echo MyClass::$aaa//error
+}
