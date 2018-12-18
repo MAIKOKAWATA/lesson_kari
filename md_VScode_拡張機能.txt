@@ -1,8 +1,0 @@
-マークダウンのための拡張機能(VS code)
-
-VSCode markdown table alignで検索。
-実装は簡単にできた
-
-使い方は、テーブルの中にカーソルを持っていき、
-[View]タブの[command palettle]を選択
-Table Format centerでテーブルの段が揃う

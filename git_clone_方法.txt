@@ -1,2 +1,0 @@
- git clone https://yui-pink:gajusm652pj@github.com/yui-pink/mysite_test.git
-　　　　　　　　 ユーザー名:パスワード

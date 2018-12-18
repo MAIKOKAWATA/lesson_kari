@@ -1,5 +1,0 @@
-Grep検索
-php -i | grep 'Debug Build'
-       ↑
-       「パイプを通す」って呼ぶ
-php infoのなかで'Debug Build'を検索する
