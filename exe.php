@@ -1,13 +1,17 @@
 <?php
 
 include("Human.php");
+include("Youtuber.php");
+include("Hikakin.php");
 
 $human1 = new Human;
 $human1->say();
 //echo $human1->name;これでもOK
-
 $human1->eat();
 
+$human2 = new Hikakin;
+$human2->say();
+$human2->hello();
 
 /**
  * 
