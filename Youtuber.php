@@ -1,6 +1,6 @@
 <?php
 
-class YouTuber extends Human{
+class Youtuber extends Human{
     public $name = "handlename";
     public function say () {
         echo "\n".$this->name;
