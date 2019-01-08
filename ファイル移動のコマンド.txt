@@ -1,0 +1,4 @@
+http://www.atmarkit.co.jp/ait/articles/1606/13/news024.html
+を見ると、分かりやすい
+
+mv 移動するファイルのファイル名　移動先のフォルダ名
